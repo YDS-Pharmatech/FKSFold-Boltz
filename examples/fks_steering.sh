@@ -1,0 +1,12 @@
+boltz-fks predict ./multimer.fasta \
+    --out_dir ../outputs/interface_steering \
+    --use_interface_steering \
+    --interface_scoring_type protein_mean_iptm \
+    --interface_lambda 2.0 \
+    --interface_resampling_interval 5 \
+    --interface_gd_steps 10 \
+    --num_particles 3 \
+    --sampling_steps 200 \
+    --step_scale 1.0 \
+    --use_msa_server \
+    --override
