@@ -49,6 +49,10 @@ boltz-fks predict input.fasta \
     --use_msa_server
 ```
 
+The visualization of the steering trajectory will be available in the `./<your output directory>/analysis` directory.
+
+You can find more examples in the [examples](./examples) directory.
+
 
 ## License
 
